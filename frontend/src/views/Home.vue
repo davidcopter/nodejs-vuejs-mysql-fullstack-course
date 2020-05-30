@@ -1,19 +1,17 @@
 <template>
   <div class="home">
-    <b-alert show>Default Alert</b-alert>
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Hello, World" />
+    <ShowUser title="Show User" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import ShowUser from "@/components/ShowUser.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    ShowUser
   }
 };
 </script>
