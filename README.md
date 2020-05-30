@@ -26,6 +26,8 @@ nodejs-vuejs-mysql-fullstack-course/
 
 ## Part1: Backend Development
 
+> สวัสดี Node.Js 
+
 ### Setup
 
 ```bash
@@ -339,5 +341,43 @@ app.use('/api/user', userRoute)
 db.sequelize.sync()
     .then(() => app.listen(port, () => console.log(`Example app listening at http://localhost:${port} 👏`)))
 
+```
+
+##  Part2: Frontend Development
+
+> สวัสดี Vue.Js
+>
+> VS Code Extenstion: Vetur https://marketplace.visualstudio.com/items?itemName=octref.vetur 
+
+### Setup
+
+```bash
+npm install -g @vue/cli
+vue -V
+```
+
+1. สร้าง โปรเจค
+
+```bash
+# vue create <projec_tname>
+vue create frontend
+```
+
+2. รัน frontend
+
+```bash
+npm run serve
+```
+
+3. ติดตั้ง Bootstrap https://bootstrap-vue.org/docs
+
+```bash
+vue add bootstrap-vue
+```
+
+4. ติดตั้ง Axios
+
+```bash
+npm install --save axios
 ```
 
